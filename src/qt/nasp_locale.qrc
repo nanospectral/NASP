@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/nasp_bg.qm</file>
+        <file alias="ca">locale/nasp_ca.qm</file>
+        <file alias="cs">locale/nasp_cs.qm</file>
+        <file alias="da">locale/nasp_da.qm</file>
+        <file alias="de">locale/nasp_de.qm</file>
+        <file alias="en">locale/nasp_en.qm</file>
+        <file alias="en_US">locale/nasp_en_US.qm</file>
+        <file alias="eo">locale/nasp_eo.qm</file>
+        <file alias="es">locale/nasp_es.qm</file>
+        <file alias="es_ES">locale/nasp_es_ES.qm</file>
+        <file alias="fi">locale/nasp_fi.qm</file>
+        <file alias="fr_FR">locale/nasp_fr_FR.qm</file>
+        <file alias="hi_IN">locale/nasp_hi_IN.qm</file>
+        <file alias="hr">locale/nasp_hr.qm</file>
+        <file alias="hr_HR">locale/nasp_hr_HR.qm</file>
+        <file alias="it">locale/nasp_it.qm</file>
+        <file alias="ja">locale/nasp_ja.qm</file>
+        <file alias="ko_KR">locale/nasp_ko_KR.qm</file>
+        <file alias="lt_LT">locale/nasp_lt_LT.qm</file>
+        <file alias="nl">locale/nasp_nl.qm</file>
+        <file alias="pl">locale/nasp_pl.qm</file>
+        <file alias="pt">locale/nasp_pt.qm</file>
+        <file alias="pt_BR">locale/nasp_pt_BR.qm</file>
+        <file alias="ro_RO">locale/nasp_ro_RO.qm</file>
+        <file alias="ru">locale/nasp_ru.qm</file>
+        <file alias="sk">locale/nasp_sk.qm</file>
+        <file alias="sv">locale/nasp_sv.qm</file>
+        <file alias="tr">locale/nasp_tr.qm</file>
+        <file alias="uk">locale/nasp_uk.qm</file>
+        <file alias="vi">locale/nasp_vi.qm</file>
+        <file alias="zh_CN">locale/nasp_zh_CN.qm</file>
+        <file alias="zh_TW">locale/nasp_zh_TW.qm</file>
+    </qresource>
+</RCC>

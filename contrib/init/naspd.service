@@ -1,0 +1,26 @@
+[Unit]
+Description=Nasp's distributed currency daemon
+After=network.target
+
+[Service]
+User=nasp
+Group=nasp
+
+Type=forking
+PIDFile=/var/lib/naspd/naspd.pid
+
+ExecStart=/usr/bin/naspd -daemon -pid=/var/lib/naspd/naspd.pid \
+          -conf=/etc/nasp/nasp.conf -datadir=/var/lib/naspd
+
+ExecStop=-/usr/bin/nasp-cli -conf=/etc/nasp/nasp.conf \
+         -datadir=/var/lib/naspd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

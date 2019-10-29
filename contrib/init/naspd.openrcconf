@@ -1,0 +1,26 @@
+# /etc/conf.d/naspd: config file for /etc/init.d/naspd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/nasp/nasp.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/naspd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/naspd.pid"
+
+# Where to write naspd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/naspd"
+
+# User and group to own naspd process
+#BITCOIND_USER="nasp"
+#BITCOIND_GROUP="nasp"
+
+# Path to naspd executable
+#BITCOIND_BIN="/usr/bin/naspd"
+
+# Nice value to run naspd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Nasp
+Comment=Nasp P2P Cryptocurrency
+Comment[fr]=Nasp, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Nasp, eşten eşe kriptografik sanal para birimi
+Exec=nasp-qt %u
+Terminal=false
+Type=Application
+Icon=nasp128
+MimeType=x-scheme-handler/nasp;
+Categories=Office;Finance;
